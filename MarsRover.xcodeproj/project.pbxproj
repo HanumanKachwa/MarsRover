@@ -10,6 +10,7 @@
 		6EC17CD257B3B4CFE0807A4E /* libPods-MarsRover.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A07D82B3872D3D47B57D56 /* libPods-MarsRover.a */; };
 		BA6FD84F1FC45ADD00620207 /* MarsRoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FD84E1FC45ADD00620207 /* MarsRoverViewModel.swift */; };
 		BA6FD8501FC45ADD00620207 /* MarsRoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FD84E1FC45ADD00620207 /* MarsRoverViewModel.swift */; };
+		BA6FD8531FC4721C00620207 /* MarsRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC38FE41FC4527500F3D1C1 /* MarsRover.swift */; };
 		BAC38FB71FC4525200F3D1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC38FB61FC4525200F3D1C1 /* AppDelegate.swift */; };
 		BAC38FB91FC4525200F3D1C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC38FB81FC4525200F3D1C1 /* ViewController.swift */; };
 		BAC38FBC1FC4525200F3D1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC38FBA1FC4525200F3D1C1 /* Main.storyboard */; };
@@ -386,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6FD8531FC4721C00620207 /* MarsRover.swift in Sources */,
 				BA6FD8501FC45ADD00620207 /* MarsRoverViewModel.swift in Sources */,
 				BAC38FCC1FC4525200F3D1C1 /* MarsRoverTests.swift in Sources */,
 			);

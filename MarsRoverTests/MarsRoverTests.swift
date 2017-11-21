@@ -21,9 +21,21 @@ class MarsRoverTests: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testRoverSuccess() {
+        let viewModel = MarsRoverViewModel()
+        let userInput = """
+                        5 5
+                        1 2 N
+                        LMLMLMLMM
+                        3 3 E
+                        MMRMMRMRRM
+                        """
+        let expectedUserOutput = """
+                                    1 3 N
+                                    5 1 E\n
+                                    """
+        let userOutput = viewModel.processUserData(input: userInput)
+        XCTAssertEqual(userOutput, expectedUserOutput)
     }
 
     func testPerformanceExample() {
