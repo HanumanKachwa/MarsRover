@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode9.0.1
+xcode_workspace: MarsRover.xcworkspace
+xcode_scheme: MarsRoverTests
+xcode_sdk: iphonesimulator11
+before_install:
+- gem install xcpretty
+script:
+- xcodebuild -scheme EMS -workspace EMS.xcworkspace -configuration 'Debug' -destination "platform=iOS Simulator,name=iPhone 87,OS=10." clean build test
