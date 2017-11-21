@@ -6,4 +6,4 @@ xcode_sdk: iphonesimulator11
 before_install:
 - gem install xcpretty
 script:
-- xcodebuild -scheme EMS -workspace EMS.xcworkspace -configuration 'Debug' -destination "platform=iOS Simulator,name=iPhone 87,OS=10." clean build test
+- xcodebuild -scheme MarsRover -workspace MarsRover.xcworkspace -configuration 'Debug' -destination "platform=iOS Simulator,name=iPhone 8,OS=11." clean build test
